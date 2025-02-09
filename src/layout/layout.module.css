@@ -1,0 +1,39 @@
+.header {
+    position: sticky;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: orangered;
+}
+
+.header a {
+    color: white;
+}
+
+.header a:hover {
+   text-decoration: underline;
+}
+
+.linkActive {
+    text-decoration: underline;
+}
+
+
+.main {
+flex:1; /* Заполняет всё доступное пространство */
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: grey;
+   height: 30px;
+}
