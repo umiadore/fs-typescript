@@ -10,7 +10,7 @@ interface IMyButtonProps {
     text?: string;
     type?: "button" | "submit" | "reset";
     // обязательный ключ
-    func: () => void;
+    func:  () => void;
   }
   
   // указали значения по умолчанию для необязательных ключей
