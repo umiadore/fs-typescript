@@ -1,0 +1,15 @@
+.productCard {
+    color:black;
+  background-color: #fff;
+}
+
+.productCard div {
+  width: 100%;
+  height: 300px;
+}
+
+.productCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

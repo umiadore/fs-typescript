@@ -17,11 +17,16 @@ export default function Layout() {
         >
           fellowship
         </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? styles.linkActive : "")}
+          to={"fetchfox"}
+        >
+          fetchfox
+        </NavLink>
       </header>
 
       <main className={styles.main}>
         <Outlet />
-        
       </main>
 
       <footer className={styles.footer}>footer</footer>

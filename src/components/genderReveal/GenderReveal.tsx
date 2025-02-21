@@ -10,6 +10,8 @@ interface IGenderData{
 interface IName{
     name:string
 }
+
+
 export default function FormGender():JSX.Element {
       const [isLoading, setIsLoading] = useState(false);
       const [genderData, setGenderData] = useState<IGenderData| null>(null);
