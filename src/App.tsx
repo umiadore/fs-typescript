@@ -15,6 +15,7 @@ import GenderReveal from './components/genderReveal/GenderReveal';
 import Lesson14 from './lessons/lesson14/Lesson14';
 import Fetchfox from './components/fetchfox/Fetchfox';
 import Lesson09 from './lessons/lesson09/Lesson09';
+import Lesson10 from './lessons/lesson10/Lesson10';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
 <Route path='lesson-7' element={<Lesson07/>}/>
 <Route path='lesson-8' element={<Lesson08/>}/>
 <Route path='lesson-9' element={<Lesson09/>}/>
+<Route path='lesson-10' element={<Lesson10/>}/>
 <Route path='lesson-11' element={<Lesson11/>}/>
 <Route path='lesson-12' element={<Lesson12/>}/>
 <Route path='genderreveal' element={<GenderReveal/>}/>

@@ -15,7 +15,7 @@ export default function Homepage():JSX.Element {
     <Link to='lesson-7'><div>Lesson 7</div></Link>
     <Link to='lesson-8'><div>Lesson 8</div></Link>
     <Link to='lesson-9'><div>Lesson 9</div></Link>
-    <Link to='lesson-10'><div>Lesson 10</div></Link>
+    <Link to='lesson-10'><div>Lesson 10: Test</div></Link>
     <Link to='lesson-11'><div>Lesson 11</div></Link>
     <Link to='lesson-12'><div>Lesson 12</div></Link>
     <Link to='genderreveal'><div>Gender Reveal</div></Link>

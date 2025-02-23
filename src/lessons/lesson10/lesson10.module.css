@@ -1,0 +1,18 @@
+.card {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center; /* Центрирование текста */
+    max-width: 500px; /* Ограничиваем ширину блока */
+    margin: 0 auto; /* Центрируем блок по горизонтали */
+    padding: 20px; /* Добавляем отступы для читаемости */
+    border-radius: 10px; /* Скругляем углы */
+  }
+  
+  .catPic {
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto; /* Центрируем картинку */
+  }
